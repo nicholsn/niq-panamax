@@ -72,6 +72,8 @@ images:
   links:
   - service: nicholsn_docker-rabbitmq_latest
     alias: MQ
+  - service: nicholsn_virtuoso
+    alias: VIRT
   environment:
   - variable: FLASK_CONFIG
     value: docker
